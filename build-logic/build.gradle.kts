@@ -16,6 +16,8 @@ repositories {
 
 dependencies {
     implementation(libs.kotlin.gradle.plugin)
+    implementation("org.graylog:graylog-parent:6.1.0")
+    implementation("org.keycloak:keycloak-saml-core:23.0.0")
 }
 
 dependencyLocking {
